@@ -3,8 +3,10 @@
 #include <stdlib.h>
 #define PI 3.1415
 #define rad PI / 180
-#define DURATION 30 
+#define DURATION 100 
+
 double sineHeight(double);
+
 int main() {
     system("clear");
     printf("HELLO THERE!\n");
@@ -24,7 +26,7 @@ int main() {
             }
             printf("\n");
         }
-        system("sleep 1");
+        system("sleep 0.1");
         system("clear");
     }
     return 0;
